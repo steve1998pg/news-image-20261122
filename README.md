@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/news-image-20261122/steve1998pg/news-image-20261122/rank.svg)](https://make.fun/bounty/news-image-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
 [![reward](https://make.fun/badge/news-image-20261122/steve1998pg/news-image-20261122/reward.svg)](https://make.fun/bounty/news-image-20261122?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
 
-One-page newspaper image summing up Sunday 22 November 2026's world news: 35 dated stories across 7 regions, with a lead story, a UTC strip, a "By the numbers" box and a sources footer. The page is rendered by `render.py` from `stories.json` (real news researched for that day), and `main.py` writes the image to `/output/entry.png`.
+One-page newspaper image summing up Sunday 22 November 2026's world news: 35 dated stories across 7 regions, each numbered with a verification badge (CONFIRMED / OFFICIAL / REPORTED / CLAIM / FORECAST) and a per-story source. The page has a lead story with a drawn dawn illustration, a labelled UTC strip, a "The day in numbers" strip, a world map with numbered pins, a DATE CHECK box listing stories left out on purpose, and a sources footer. The page is rendered by `render.py` from `stories.json` (real news researched for that day), and `main.py` writes the image to `/output/entry.png`.
 
 ## Run it
 
